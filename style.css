@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+    
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-image: url(images/bg-header-desktop.png);
+    width: 100%;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.header {
+    width: 80%;
+    /* background-color: goldenrod; */
+    margin-top: 50px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.history {
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600px;
+}
+
+h5 {
+    color:  hsl(210, 10%, 33%);
+}
+
+p {
+   color: hsl(201, 11%, 66%);
+}
+
+.clip {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 30px;
+
+    
+}
+
+.button-area {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 320px;
+}
+.green {
+    background:hsl(171, 66%, 44%);
+    font-size: 12px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid hsl(171, 66%, 44%);
+} 
+
+.blue {
+    background: hsl(233, 100%, 69%);
+    font-size: 12px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid hsl(233, 100%, 69%);
+} 
+
+.desktop {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 60px;
+}
+
+.desktoptext {
+    margin-left: 60px;
+    margin-top: 60px;
+    border-right-width: 50px;
+    padding-right: 150px;
+    text-align: justify;
+    line-height: 20px;
+    flex-flow: row wrap;
+}
+
+.hp {
+    padding-top: 20px;
+}
+
+.tablet {
+    display: flex;
+    justify-content: center;
+}
+
+.threecolumn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .threecolumn > div {
+    max-width: 280px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+
+.column2{
+    margin-top: 0px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.image {
+    padding: 10px;
+    max-width: 300px; 
+    margin-left: 50px;
+}
+.houseall {
+    display: flex;
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    margin-top: 100px;
+}
+.firstside {
+    display: flex;
+    margin-left: 100px;
+}
+
+
+ul{
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.logodown{
+    size: 20px;
+}
+
+.faq, .pp {
+    margin-left: 70px;
+}
+
+li {
+    padding: 10px;
+}
+
+.secondside {
+    margin-left: 260px;
+    margin-top: 35px;
+    
+}
+.sm {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
